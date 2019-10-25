@@ -1,8 +1,10 @@
 # Firebase Sign in Reactjs
 
--git clone "-----"
--cd login
--yarn start
+<p>Aşagıdaki Adımları izlemeniz yeterlidir</p> </br>
+
+- git clone 'repo link'
+- cd Login
+- yarn start
 
 
 
