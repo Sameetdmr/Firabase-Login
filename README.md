@@ -1,6 +1,6 @@
 # Firebase Sign in Reactjs
 
-### Google Firebase Bağlantısı kullanılarak basit bir google hesabı girişi sağladım.
+### Google Firebase Bağlantısı kullanılarak basit bir Google hesabı girişi sağladım.
 
 <p>Aşagıdaki Adımları izlemeniz yeterlidir</p> </br>
 
