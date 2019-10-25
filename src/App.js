@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+//Firebase import 
+
 import withFirebaseAuth from 'react-with-firebase-auth'
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from './firebaseConfig';
-import logo from './logo.svg';
-import './App.css';
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig); //Firebase Bağlantısı
 
 class App extends Component {
   render() {
@@ -40,10 +43,10 @@ class App extends Component {
 const firebaseAppAuth = firebaseApp.auth();
 
 const providers = {
-  googleProvider: new firebase.auth.GoogleAuthProvider(),
+  googleProvider: new firebase.auth.GoogleAuthProvider(), //Hangi girişi sağlanmasını istiyorsanız onu seçtim. (Google)
 };
 
-export default withFirebaseAuth({
+export default withFirebaseAuth({ //Uygulama içinden hangi Firebase komutları çekilecek.
   providers,
   firebaseAppAuth,
 })(App);
