@@ -1,8 +1,8 @@
 # Firebase Sign in Reactjs
 
-### Google Firebase Bağlantısı kullanılarak basit bir Google hesabı girişi sağladım.
+### I provided a simple Google account login using Google Firebase Link.
 
-<p>Aşagıdaki Adımları izlemeniz yeterlidir</p> </br>
+<p> Just follow the steps in here</p> </br>
 
 - git clone 'repo link'
 - cd Login
